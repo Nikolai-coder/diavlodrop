@@ -68,38 +68,11 @@ Or download the installer from [Releases](https://github.com/Nikolai-coder/diavl
 
 DIAVLO DROP is local-first. Everything runs on your machine. No accounts, no telemetry, no data uploads. [Learn more](docs/privacy.md)
 
-## Architecture
-
-- **Frontend**: React 19 + TypeScript + Vite
-- **Backend**: Rust + Tauri 2
-- **Audio**: FFmpeg / FFprobe
-- **Artwork**: Rust image crate (procedural)
-- **Storage**: SQLite
-- **Installer**: NSIS
-
-[Architecture docs](docs/architecture.md)
-
-## Development
-
-```powershell
-# Prerequisites
-npm install
-
-# Development
-npm run tauri dev
-
-# Build
-npm run tauri build
-
-# Tests
-npm test
-cargo test
-```
-
 ## Roadmap
 
-- v0.1.0 - Initial release with core features
-- v0.2.0 - MIDI export, batch processing improvements
+- [ ] Custom watermark import
+- [ ] Spotify Canvas export
+- [ ] 4K Video export, batch processing improvements
 - v0.3.0 - Plugin system, custom visualizers
 - v1.0.0 - Stable release with GPU acceleration
 
